@@ -1,0 +1,100 @@
+body {
+    font-family: 'Yusei Magic', sans-serif;
+    margin: 0 0 0 0;
+  }
+
+ figure.sign {
+    float: left;
+    color:  #0688EE;
+   }
+
+  figcaption.fof {
+  text-align: center;
+  margin: 2px 2px 2px 0;
+  font-size:140%;
+  } 
+
+  div.lol{
+    text-align: center;
+  }
+
+  .nav img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #aboutme {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+  }
+  
+  #projects {
+    clear: both;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 60%;
+    margin: auto;
+  }
+
+  
+  .nav {
+    background-color: #1982DA; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+  }
+  
+  #header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  #photoside {
+    float: left;
+    padding-left: 10%;
+    padding-top: 2rem;
+    width: 20%;
+    font-size: 1.5rem;
+  }
+
+  
+  h3 {
+    font-size: 60px;
+  }
+  
+  h2{
+    font-size: 30px;
+  }
+
+.container img {
+    width: 350px;
+    height: 260px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.container img:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
